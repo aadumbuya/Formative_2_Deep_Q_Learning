@@ -26,9 +26,9 @@ python train.py
 
 ### Features:
 - Uses CnnPolicy for deep learning-based vision processing.
-- Saves models every 50K steps to avoid memory overflow.
+- Saves models every 100K steps to avoid memory overflow.
 - Reduces memory usage by:
-  - Lowering buffer size to 100K.
+  - Lowering buffer size to 200K.
   - Reducing batch size to 16.
   - Using float16 precision to save GPU memory.
   - Training in smaller steps 50K.
@@ -37,9 +37,9 @@ python train.py
 | Parameter         | Value |
 |------------------|-------|
 | Learning Rate    | 1e-4  |
-| Buffer Size      | 100K  |
+| Buffer Size      | 200K  |
 | Batch Size       | 16    |
-| Train Steps      | 50K  |
+| Train Steps      | 500K  |
 | Target Update    | 2000  |
 
 ## Playing with the Trained Model
