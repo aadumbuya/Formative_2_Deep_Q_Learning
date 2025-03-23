@@ -73,4 +73,4 @@ tensorboard --logdir=./tensorboard_logs/
   CONTRIBUTORS
   1. Alhassan A Dumbuya - train.py
   2. Florent Hirwa -Play.py
-  3. Adella - 
+  3. Adaobi Stella Ibeh - hyperparameter tuning documentation
