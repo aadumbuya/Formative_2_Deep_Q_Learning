@@ -68,3 +68,9 @@ tensorboard --logdir=./tensorboard_logs/
   ```
 - If training crashes due to memory, reduce buffer_size further (e.g., 100K).
 - If you get torch out of memory error, try reducing batch_size or train in smaller steps.
+
+
+  CONTRIBUTORS
+  1. Alhassan A Dumbuya - train.py
+  2. Florent Hirwa -Play.py
+  3. Adella - 
