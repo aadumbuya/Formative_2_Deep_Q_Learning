@@ -104,10 +104,9 @@ CNN’s small batch size (16) might have caused noisy updates.
 
 | Hyperparameter Set                                                                 | Noted Behavior                                                                 |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| `lr=1e-4, gamma=0.99, batch=32, epsilon_start=1.0, epsilon_end=0.05, epsilon_decay=20k` | MLP Model: Reward stagnated at **-20.7 to -21.0** after 200k steps. No improvement observed. |
-| `lr=1e-4, gamma=0.99, batch=16, epsilon_start=1.0, epsilon_end=0.01, epsilon_decay=5k`  | CNN Model: Reward stuck at **-21.0 ± 0.0**. Likely due to aggressive ε-decay and small batch size. |
-| `lr=1e-4, gamma=0.99, batch=16, epsilon_start=1.0, epsilon_end=0.05, epsilon_decay=10k` |Exploration Rate (exploration_rate): Decays from 1.0 to 0.05, reducing exploration over time.  Mean reward (ep_rew_mean) remains 
-                                                                                           negative, suggesting the agent struggles to improve significantly.|
+| `lr=1e-4, gamma=0.99, batch=32, epsilon_start=1.0, epsilon_end=0.05, epsilon_decay=200k` | MLP Model: Reward stagnated at **-20.7 to -21.0** after 200k steps. No improvement observed. |
+| `lr=1e-4, gamma=0.99, batch=16, epsilon_start=1.0, epsilon_end=0.01, epsilon_decay=50k`  | CNN Model: Reward stuck at **-21.0 ± 0.0**. Likely due to aggressive ε-decay and small batch size. |
+| `lr=1e-4, gamma=0.99, batch=16, epsilon_start=1.0, epsilon_end=0.05, epsilon_decay=100k` |Mean reward (ep_rew_mean) remains negative, suggesting the agent struggles to improve significantly.|
 
 
 
