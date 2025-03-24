@@ -1,6 +1,8 @@
 # Formative_2_Deep_Q_Learning
 # Deep Q-Network (DQN) Training and Evaluation on Atari Pong
 
+#Video: https://youtu.be/rN2jt4OcGwc
+
 ## Overview
 This project trains a Deep Q-Network (DQN) agent to play Atari Pong using Stable-Baselines3 and Gymnasium. The training process is optimized to reduce memory usage while maintaining good performance.
 
