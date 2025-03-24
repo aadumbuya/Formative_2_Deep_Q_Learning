@@ -138,8 +138,9 @@ tensorboard --logdir=./tensorboard_logs/
   pip install gymnasium[accept-rom-license]
   ```
 - If training crashes due to memory, reduce buffer_size further (e.g., 100K).
-- If you get torch out of memory error, try reducing batch_size or train in smaller steps.
+- If you get the torch out of memory error, try reducing batch_size or train in smaller steps.
 
+I couldn't upload the model as a zip file due to the size of my zip file 
 
   CONTRIBUTORS
   1. Alhassan A Dumbuya - train.py
