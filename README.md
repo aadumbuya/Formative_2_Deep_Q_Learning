@@ -140,5 +140,5 @@ tensorboard --logdir=./tensorboard_logs/
 
   CONTRIBUTORS
   1. Alhassan A Dumbuya - train.py
-  2. Florent Hirwa -Play.py
+  2. Florent Hirwa - hyperparameters and Play.py
   3. Adaobi Stella Ibeh - hyperparameter tuning documentation
